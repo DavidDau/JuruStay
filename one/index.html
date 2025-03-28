@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JuruStay</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/images/Logo-white.png" />
+  </head>
+  <body>
+      <nav class="navbar">
+        <div class="nav-logo">
+          <a><img src="assets/images/Logo-black.png" alt="Logo" width="25px" /></a>
+          <span><a href="#">JuruStay</a></li></span>
+        </div>
+        <ul class="nav-link">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="action_btn">Join us</a>
+      </nav>
+      <div class="mobile-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="action_btn">Join us</a></li>
+        </ul>
+      </div>
+    <div class="container">
+        <div class="form-box">
+            <h2 id="form-title">Sign In</h2>
+
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Sign In</button>
+            </form>
+
+            <form id="signup-form" style="display: none;">
+                <input type="text" id="signup-name" placeholder="Full Name" required>
+                <input type="email" id="signup-email" placeholder="Email" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <p id="toggle-form">Don't have an account? <span onclick="toggleForm()">Sign Up</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
