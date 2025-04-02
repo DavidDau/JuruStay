@@ -12,9 +12,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="home.css" />
     <link rel="icon" href="assets/images/Logo-white.png" />
-    <script defer src="script.js"></script>
+    <script defer src="home.js"></script>
   </head>
   <body>
     <!-- Video Background -->
@@ -29,18 +29,18 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
       <div class="logo">
-        <a class="logo-link" href="#">
+        <a class="logo-link" href="home.php">
           <img src="assets/images/Logo-white.png" alt="Logo" width="35px" title="Zion TCC Kabuga Parish"/>
           <div class="logo-text">Juru<i>Stay</i></div>
         </a> 
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="contactus.html">Contact us</a></li>
-        <li><a href="navigate.html">Navigate</a></li>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="about.php">About us</a></li>
+        <li><a href="contactus.php">Contact us</a></li>
+        <li><a href="navigate.php">Navigate</a></li>
       </ul>
-      <li><a href="signup.html" class="action_btn">Join</a></li>
+      <li><a href="index.php" class="action_btn">Join</a></li>
       <div class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars" style="color: #ffffff"></i><div></nav>
 
     <!-- Main Content -->
@@ -55,7 +55,7 @@
         personal paradise awaits. Start your adventure today and find the
         perfect place to stay, tailored just for you!.
       </p>
-      <button class="btn"><a href="signup.html"><b>Get Started</b></a></button>
+      <button class="btn"><a href="index.php"><b>Get Started</b></a></button>
     </div>
     <div class="content1">
       <div class="team">
@@ -74,8 +74,8 @@
           </div>
           <div class="footer-links">
               <ul>
-                  <li><a href="about.html">About us</a></li>
-                  <li><a href="contactus.html">Feedback</a></li>
+                  <li><a href="about.php">About us</a></li>
+                  <li><a href="contactus.php">Feedback</a></li>
               </ul>
           </div>
           <div class="footer-social">

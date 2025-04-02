@@ -36,16 +36,16 @@
      <!-- Navigation Bar -->
      <nav class="navbar">
         <div class="logo">
-          <a class="logo-link" href="index.html">
+          <a class="logo-link" href="home.php">
             <img src="assets/images/Logo-white.png" alt="Logo" width="35px" title="Zion TCC Kabuga Parish"/>
             <div class="logo-text">Juru<i>Stay</i></div>
           </a> 
         </div>
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About us</a></li>
-          <li><a href="contactus.html">Contact us</a></li>
-          <li><a href="navigate.html">Navigate</a></li>
+          <li><a href="home.php">Home</a></li>
+          <li><a href="about.php">About us</a></li>
+          <li><a href="contactus.php">Contact us</a></li>
+          <li><a href="navigate.php">Navigate</a></li>
         </ul>
         <div class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars" style="color: #ffffff;"></i><div></nav>
             
@@ -70,10 +70,10 @@
         </div>
         <div class="footer-links">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="contactus.html">Contact us</a></li>
-            <li><a href="navigate.html">Navigate</a></li>
+            <li><a href="home.php">Home</a></li>
+            <li><a href="about.php">About us</a></li>
+            <li><a href="contactus.php">Contact us</a></li>
+            <li><a href="navigate.php">Navigate</a></li>
           </ul>
         </div>
         <div class="footer-social">

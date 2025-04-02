@@ -163,8 +163,8 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  background-color: rgba(255, 255, 255, 0.364);
-  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.229);
+  backdrop-filter: blur(15px);
   color: black;
   padding: 50px;
   margin: 50px 0;
@@ -215,6 +215,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   font-size: 16px;
+  width: 100%;
   transition: background-color 0.3s ease;
 }
 

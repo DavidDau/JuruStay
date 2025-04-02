@@ -28,18 +28,18 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
       <div class="logo">
-        <a class="logo-link" href="index.html">
+        <a class="logo-link" href="home.php">
           <img src="assets/images/Logo-white.png" alt="Logo" width="35px" title="Zion TCC Kabuga Parish"/>
           <div class="logo-text">Juru<i>Stay</i></div>
         </a> 
       </div>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="contactus.html">Contact us</a></li>
-        <li><a href="navigate.html">Navigate</a></li>
+        <li><a href="home.php">Home</a></li>
+        <li><a href="about.php">About us</a></li>
+        <li><a href="contactus.php">Contact us</a></li>
+        <li><a href="navigate.php">Navigate</a></li>
       </ul>
-      <li><a href="signup.html" class="action_btn">Join</a></li>
+      <li><a href="index.php" class="action_btn">Join</a></li>
       <div class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars" style="color: #ffffff"></i><div></nav>
 
    <!-- Hero Section -->
@@ -73,10 +73,6 @@
         <div class="caption">Elizabeth Golf Apartment - Kigali</div>
     </div>
     </div>
-    <div class="image-card apartment" data-location="Kigali">
-        <img src="assets/images/locations/Maz Apartments.avif" alt="Maz Apartment">
-        <div class="caption">Maz Apartment - Kigali</div>
-    </div>
     <div class="image-card park" data-location="Nyungwe">
         <img src="assets/images/locations/Nyungwe Park.png" alt="Beautiful Park in Nyungwe">
         <div class="caption">Beautiful Park - Nyungwe</div>
@@ -98,37 +94,6 @@
     <div id="lightboxCaption"></div>
 </div>
 
-<!-- Add a location -->
-  <div class="add-location-container">
-    <h3>Add a New Place</h3>
-        <!-- Form to Post a Place -->
-        <form id="placeForm">
-            <input type="file" id="placeImage" accept="image/*, video/*" required>
-
-            <input type="text" id="placeName" placeholder="Enter place name" required>
-
-            <input type="url" id="googleLocation" placeholder="Paste Google Maps link" required>
-
-            <textarea id="placeDescription" placeholder="Write a short description" required></textarea>
-
-            <button id ="postPlaceBtn" type="submit">Post</button>
-        </form>
-  </div>
-  
-      <!-- Section to Display Posted Places -->
-      <div class="places-container">
-        <h2>Posted Places</h2>
-        <div id="placesContainer"></div>
-      </div>
-
-      <!-- Sign In Modal prompt -->
-      <div id="loginModal" class="modal">
-        <div class="modal-content">
-          <p>You must sign in first to post a place.</p>
-          <button id="signInBtn">Sign In</button>
-        </div>
-      </div>
-
 <!-- Footer -->
 <footer class="footer">
   <div class="footer-container">
@@ -138,10 +103,10 @@
       </div>
       <div class="footer-links">
           <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About us</a></li>
-              <li><a href="contactus.html">Contact us</a></li>
-              <li><a href="navigate.html">Navigate</a></li>
+              <li><a href="home.php">Home</a></li>
+              <li><a href="about.php">About us</a></li>
+              <li><a href="contactus.php">Contact us</a></li>
+              <li><a href="navigate.php">Navigate</a></li>
           </ul>
       </div>
       <div class="footer-social">
