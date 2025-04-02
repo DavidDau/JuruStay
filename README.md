@@ -33,18 +33,18 @@ JuruStay is a social media-style platform where users can **post places**, **lea
 
 ## Installation Guide  
 
-### 1️**Clone the Repository**  
+### 1 **Clone the Repository**  
 ```sh
 git clone https://github.com/DavidDau/JuruStay.git
 cd JuruStay
 ```
 
-### 2️⃣ **Set Up the Database**
+### 2️ **Set Up the Database**
 1. Open **phpMyAdmin** (localhost/phpmyadmin).  
 2. Create a database named **places_db**.  
 3. Import the provided `places_db.sql` file.  
 
-### 3️⃣ **Run the Backend (PHP & MySQL)**
+### 3️ **Run the Backend (PHP & MySQL)**
 1. Start **XAMPP** (Apache & MySQL).  
 2. Move the project folder to `htdocs`.  
 3. Open a browser and go to:  
